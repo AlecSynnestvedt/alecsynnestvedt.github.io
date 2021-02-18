@@ -5,11 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alec Synnestvedt</title>
-    <link type="stylesheet" a href="styles.css"/>
-    <link rel="stylesheet" a href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"/>
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
-
+    <link rel="stylesheet" ref="text/css" href="./styles.css"/>
 
 </head>
 <body>
@@ -18,18 +14,18 @@
 <!-- NAVIGATION -->
 
        <div class="logo">
-           <img src="assets/Alec Synnestvedt-logo-black-plant.png" alt="">
+           <img src="./assets/Alec Synnestvedt-logo-black-plant.png" alt="">
 
        </div>
         <button class="nav-toggle" aria-label="toggle navigation">
-            <span class="Burger"></span>
+            <span class="hamburger"></span>
         </button>
         <nav class="nav">
             <ul class="nav__list">
-                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
-                <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
-                <li class="nav__item"><a href="#mywork" class="nav__link">My Work</a></li>
-                <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="index.html#about" class="nav__link">About Me</a></li>
+                <li class="nav__item"><a href="index.html#mywork" class="nav__link">My Work</a></li>
+                <li class="nav__item"><a href="index.html#contact" class="nav__link">Contact</a></li>
             </ul>
         </nav>
    </header>
@@ -82,20 +78,21 @@
 
         </p>
         <div class="about-me__body">
-            <p>1</p>
-            <p>2</p>
+            <p>I thrive when tasked with connecting and aligning technical and stratgic teams to business objectives. <strong>I'm the glue</strong> between product and marketing. I make it easy for business and customers to make mutually beneficial relationships. From product<>market fit through persona development, go-to-market strategies, and on to execution steps in multi-channel marketing campaign management and </p>
+            <p>When I'm not working, I'm usually making something with my son or making music.</p>
         </div>
         <img src="assets/Nadalie Alec-Leo s one year-0174.jpg" alt="Alec and his son having fun" class="about-me__img">
     </section>
 
 <!-- My Work -->
     <section class="my-work" id="work">
-        <h2 class="section__title">A Selection of My Work</h2>
+        <h2 class="section__title">My Work</h2>
         <p class="section__subtitle"></p>
 
     <!-- Portfolio -->
 
         <div class="portfolio">
+        <p>A selection of my range of work</p>
 
         <!-- Portfolio Item 1 - Static Site Project -->
             <a href="#" class="portfolio__item">
@@ -111,34 +108,45 @@
         <a href="#" class="portfolio__item">
             <img src="assets/folder-icon.png" alt="" class="portfolio__img">
         </a>
-
+        
+        <!-- Portfolio Item 4 - CSS Creature -->
+        <a href="#" class="portfolio__item">
+            <img src="assets/folder-icon.png" alt="" class="portfolio__img">
+        </a>
 
         </div>
-
-
-
 
     </section>
 
 <!-- Contact -->
-
-
+<script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+<script>
+  window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
+  formbutton("create", {action: "https://formspree.io/f/xdopgkkj"})
+</script>
 
 <!-- Footer -->
-    <footer>
+    <footer class="footer">
         <a href="mailto:aleccsyn@gmail.com" class="footer--link">aleccsyn@gmail.com</a>
     
         <ul class="social-list">
-            <li class="social-list__item"><a class="social-list__link"
-                href="linkedinurl">l</a></li>
-            <li class="social-list__item"><a class="social-list__link"
-                href="githuburl">g</a></li>
-            <li class="social-list__item"><a class="social-list__link"
-                href="twitterurl">t</a></li>
+            <li class="social-list__item">
+                <a class="social-list__link"
+                href="https://www.linkedin.com/in/alecsynnestvedt/">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link"
+                href="https://github.com/AlecSynnestvedt">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
 
         </ul>
     </footer>
 
-
+<script src="./script.js"></script>
+<script src="https://kit.fontawesome.com/47135242aa.js" crossorigin="anonymous"></script>
 </body>
 </html>
